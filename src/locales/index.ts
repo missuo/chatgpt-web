@@ -1,3 +1,13 @@
+/*
+ * @Author: Vincent Young
+ * @Date: 2023-05-06 00:18:13
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2023-05-06 00:20:32
+ * @FilePath: /chatgpt-web/src/locales/index.ts
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2023 by Vincent, All Rights Reserved. 
+ */
 import type { App } from 'vue'
 import { createI18n } from 'vue-i18n'
 import enUS from './en-US'
@@ -10,7 +20,7 @@ import type { Language } from '@/store/modules/app/helper'
 
 const appStore = useAppStoreWithOut()
 
-const defaultLocale = appStore.language || 'zh-CN'
+const defaultLocale = appStore.language || 'en-US'
 
 const i18n = createI18n({
   locale: defaultLocale,

@@ -1,3 +1,13 @@
+/*
+ * @Author: Vincent Young
+ * @Date: 2023-05-06 00:18:13
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2023-05-06 00:20:54
+ * @FilePath: /chatgpt-web/src/store/modules/app/helper.ts
+ * @Telegram: https://t.me/missuo
+ * 
+ * Copyright © 2023 by Vincent, All Rights Reserved. 
+ */
 import { ss } from '@/utils/storage'
 
 const LOCAL_NAME = 'appSetting'
@@ -13,7 +23,7 @@ export interface AppState {
 }
 
 export function defaultSetting(): AppState {
-  return { siderCollapsed: false, theme: 'light', language: 'zh-CN' }
+  return { siderCollapsed: false, theme: 'light', language: 'en-US' }
 }
 
 export function getLocalSetting(): AppState {
