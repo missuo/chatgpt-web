@@ -2,7 +2,7 @@
  * @Author: Vincent Young
  * @Date: 2023-05-06 00:18:13
  * @LastEditors: Vincent Young
- * @LastEditTime: 2023-05-06 00:19:22
+ * @LastEditTime: 2023-10-11 16:47:38
  * @FilePath: /chatgpt-web/src/store/modules/user/helper.ts
  * @Telegram: https://t.me/missuo
  * 
@@ -25,8 +25,8 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://s3.missuo.me/images/Nzz8m0.png',
-      name: 'Vincent Young',
+      avatar: 'https://r2.qwq.mx/files/Nzz8m0.png',
+      name: 'Vincent Yang',
       description: 'Follow me on <a href="https://twitter.com/m1ssuo" class="text-blue-500" target="_blank" >Twitter</a>',
     },
   }
